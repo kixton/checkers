@@ -16,10 +16,12 @@
 
 .red {
   background-color: red;
+  /*border: 5px solid red;*/
 }
 
-.white {
+.wht {
   background-color: white;
+  /*border: 5px solid white;  */
 }
 
 .piece {
@@ -27,5 +29,14 @@
   width: 40px;
   height: 40px;
   display: inline-block;
-  border-radius: 50%;
+  border-radius: 100%;
 }
+
+.king {
+  background: url(../smiley.gif);
+  background-size: contain;
+  border-radius: 100%;  
+  width: 30px;
+  height: 30px;
+}
+
